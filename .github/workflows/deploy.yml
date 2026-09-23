@@ -3,7 +3,7 @@ run-name: acode.app/main - ${{ github.run_number }}
 on:
   push:
     branches:
-      - main
+    - main
 
 jobs:
   Deploy:
